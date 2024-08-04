@@ -15,7 +15,6 @@ class ExampleArch(nn.Module):
         num_feat (int): Channel number of intermediate features. Default: 64.
         upscale (int): Upsampling factor. Default: 4.
     """
-
     def __init__(self, num_in_ch=3, num_out_ch=3, num_feat=64, upscale=4):
         super(ExampleArch, self).__init__()
         self.upscale = upscale
